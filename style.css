@@ -1,4 +1,75 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 35px;
+    border-left: 5px solid lightgray;
+    min-height: 100%;
+    max-width: 1000px;
+    margin:auto;
+}
+header {
+    padding: 1rem 2rem 1rem 2rem;
+}
+main {
+    padding: 1rem 2rem 1rem 2rem;
+}
+footer {
+    padding: 1rem 2rem 1rem 2rem;
+}
+h1 {
+    color: tomato;
+}
+
+img {
+    width: 100%;
+}
+ul {
+    padding: 0%;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+
+.continue-reading {
+    text-decoration: none;
+    color: tomato;
+    text-align: right;
+    font-weight: bold;
+
+}
+.top-nav {
+    color: lightgray;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 90px;
+}
+.date-header {
+    color: lightgray;
+}
+
+p::first-letter {
+    font-size: 300%;
+    font-weight: bold;
+    color: lightgray;
+    float: left;
+    margin-right: 10px;
+}
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+.footer-copyright {
+    color: lightgray;
+    text-align: left;
+    padding-top: 5px;
+}
+.bot-nav {
+    
+    
+    color: tomato;
+    text-decoration: none;
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    
 }
