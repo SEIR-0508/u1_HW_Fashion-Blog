@@ -1,3 +1,92 @@
 li{
     display:inline;
+    font-size: 25px;
+}
+
+#weirdBorder
+{
+    border-left:5px lightgray
+}
+
+.bodyClass
+{
+    margin:auto;
+    min-height: 100%;
+    font-family: sans-serif;
+    max-width: 1000px;
+}
+
+.pad
+{
+    padding: 1em 5em;
+}
+
+h1
+{
+    color: tomato;
+}
+
+img
+{
+    max-width:100%;
+}
+
+ul
+{
+    padding:0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.article
+{
+    font-size: 25px;
+}
+
+.redContinue
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+    color:tomato;
+}
+
+p
+{
+    line-height: 1.5;
+}
+
+p::first-letter
+{
+    color:lightgray;
+    font-size:550%;
+    float: left;
+    padding-top: -10px;
+}
+
+.greyText
+{
+color:lightgray;
+}
+
+a
+{
+    color: tomato;
+}
+
+#smallerPlease
+{
+    font-size: 20px;
+}
+
+.articleTitle
+{
+    color: black;
+}
+
+.intro
+{
+    font-size: 50px;
 }
