@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+      border-left: 5px solid lightgray;
+}
+
+body {
+      min-height: 100vh;
+      font-family: 'Roboto', sans-serif;
+      max-width: 1000px;
+      margin: auto;
+}
+
+header, main, footer {
+      padding: 1rem 2rem;
+}
+
+h1 {
+      font-size: 65px;
+      color: tomato;
+}
+
+.date {
+      color: lightgray;
+}
+
+h2{
+      font-size: 40px;
+}
+
+img {
+      width: 100%;
+}
+
+p {
+      font-family: sans-serif;
+}
+
+#tomato-links {
+      color: tomato;
+      font-weight: bold;
+      display: flex;
+      justify-content: flex-end;
+}
+
+nav {
+      font-size: 30px;
+}
+
+
+
+ul {
+      padding: 0;
+      list-style-type: none;
+}
+
+a {
+      color: lightgray;
+      text-decoration: none;
+}
+
+footer {
+      color: lightgray;
+}
+
+.nav-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+    
+@media (max-width: 768px) {
+      .nav-list {
+        flex-wrap: wrap;
+      }
+      
+      #tomato-links {
+        justify-content: center;
+        margin-top: 1rem;
+      }
+      
+      nav {
+        font-size: 24px;
+        text-align: center;
+      }
+      
+      footer ul li {
+        padding-right: 10px;
+      }
+      
+      p::first-letter {
+        font-size: 2em;
+        line-height: 0.8em;
+        float: none;
+        margin-right: 0;
+        padding-right: 0;
+      }
+      
+      h1 {
+        font-size: 48px;
+      }
+}
+    
+
+#nav-link {
+      border-bottom: 2px solid lightgray;
+}
+
+footer ul li {
+      border-right: 1px solid lightgray;
+      padding-right: 25px;
+}
+
+footer ul li:last-child {
+      border-right: none;
+}
+
+article {
+      margin-bottom: 4rem;
+      border-bottom: 1px solid lightgray;
+      padding-bottom: 2rem;
+}
+
+/* had to look this one up to make look right */
+p::first-letter {
+      font-size: 4em;
+      font-weight: bold;
+      color: lightgray;
+      padding-right: 0.2em;
+      float: left;
+      margin-right: 0.2em;
+      line-height: 0.8em;
+}
+
+    
+    
+    
+    
