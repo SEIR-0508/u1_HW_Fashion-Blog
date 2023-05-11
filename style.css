@@ -1,0 +1,100 @@
+/* for the line divider */
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 2rem;
+}
+
+h1{
+    color:tomato;
+    font-size:50px;
+    margin-bottom: -1rem; 
+}
+
+h2{
+    font-size:25px;
+    font-weight: lighter;
+}
+h3{
+    padding-bottom: -3rem;
+}
+
+h4{
+    font-weight: lighter;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: none;
+    list-style-type: none;
+    font-size: 30px;
+} 
+
+a{
+    color:lightgrey;
+}
+
+
+p::first-letter {
+    font-size: 6rem;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.date{
+    font-size: 33px;
+    color:lightgray;
+    margin-bottom: 0rem;
+ }
+ 
+.intro{
+    font-size: 30px;
+    margin-bottom: 0rem;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+header, main, footer{
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+html{
+    border-left: 5px solid lightgray;
+}
+
+.nav2{
+    color:tomato;
+    text-decoration: none;
+}
+
+
+#body{
+    min-height: 100%;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#pic{
+    width:100%;
+}
+
+#continues{
+    
+    color: tomato;
+    font-style: bold;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    /* position: relative; */
+    /* text-align: right; */
+}
+
+h9{
+    color:lightgrey;
+}
