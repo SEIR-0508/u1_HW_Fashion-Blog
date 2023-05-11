@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+html {
+    border-left: 15px solid lightgray;
+}
+body {
+    min-height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header, main, footer {
+    padding: 1rem 2rem;
+}
+h1 {
+    color: tomato;
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+img {
+    width: 100%;
+}
+
+.navlist{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+header .navlist {
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+header .navlist a {
+    color: lightgrey;
+}
+footer .navlist a {
+    color: tomato;
+    text-decoration: none;
+}
+footer .navlist li{
+    padding: 0 5px;
+    border-left: 2px solid lightgray;
+}
+footer .navlist li:first-child{
+    padding-left: 0;
+    border: none;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 2rem;
+}
+article a {
+    display: block;
+    text-align: right;
+    color: tomato;
+    font-weight: bold;
+}
+article p::first-letter {
+    font-size: 75px;
+    line-height: 60px;
+    padding: 4px 10px 0 0;
+    float: left;
+    color: lightgrey;
+}
+article p {
+    line-height: 1.5em;
+    color: rgba(0, 0, 0, .7);
+}
+.date {
+    color: lightgrey;
+}
+#copyright {
+    color: lightgrey;
+}
