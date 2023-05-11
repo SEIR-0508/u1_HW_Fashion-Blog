@@ -10,7 +10,7 @@ header {
     padding: 1rem 2rem;
 }
 
-body {
+main {
     padding: 1rem 2rem;
 }
 
@@ -22,6 +22,11 @@ h1 {
     color: tomato;
 }
 
+time {
+    color: lightgrey;
+    font-size: xx-large;
+}
+
 img {
     width: 100%;
 }
@@ -30,16 +35,72 @@ ul {
     list-style-type: none;
 }
 
+p {
+    color: darkgray;
+}
+
+p::first-letter {
+    font-size: 250%;
+    font-weight: bold;
+    color: lightgray;
+    float: left;
+    padding: 6px 3px;
+    margin-right: 6px;
+}
+
+article {
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgrey;
+}
+
 /* class */
 
 .headerList {
     color: lightgray;
     display: flex;
     justify-content: space-between;
-    
+    text-decoration: underline;    
+}
+
+.topNav {
+    color: lightgrey;
 }
 
 .footerList {
     color: tomato;
     display: flex;
+    font-family: aria;
+    margin: 0rem 0rem 2rem 0rem;
 }
+
+.footerText {
+    color: lightgray;
+    
+}
+
+.continues {
+    color: tomato;
+    text-decoration: none;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.bar {
+    border-right: 2px solid lightgrey;
+    padding: 0 .25rem;
+}
+
+.noBar {
+    padding: 0 .25rem;
+}
+
+.noUnder {
+    color: tomato;
+    text-decoration: none;
+}
+
+/* Id */
+
