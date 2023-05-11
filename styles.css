@@ -1,0 +1,114 @@
+html{
+    border-left:5px solid lightgray;
+}
+
+body{
+    max-width: 1000px;
+    margin: auto;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    margin-bottom:80px;
+    padding:1rem 2rem;
+}
+
+main{
+    padding:1rem 2rem;
+}
+
+footer{
+    padding:1rem 2rem;
+}
+
+h1{
+    color:tomato;
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom:0;
+}
+
+h2{
+    font-weight: 200;
+}
+
+time{
+    font-size:40px;
+    color:lightgray;
+    font-weight: 100;
+}
+
+img{
+    width:100%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding:0;
+}
+
+a{
+    text-decoration: underline;
+    color:lightgray;
+    padding:0 30px 0 0;
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+article{
+    margin-bottom:4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+.main-nav{
+    flex-direction: space-between;
+}
+
+.paragraph::first-letter{
+    color:lightgray;
+    font-weight: bold;
+    font-size:150px;
+    margin: 0;
+    padding: 0;
+}
+
+.article-title{
+    font-size:30px;
+}
+
+.continues{
+color: tomato;
+font-weight: 700;
+margin-bottom: 30px;
+text-align: right;
+}
+
+li.footer-nav a{
+color:tomato;
+font-size: 20px;
+text-decoration: none;
+border-right: 2px solid lightgray;
+padding-right:20px;
+margin-right:20px;
+
+}
+
+#copyright-statement{
+    display:flex;
+    flex-direction: row;
+    color:lightgray;
+    font-size: 20px;
+    margin-top:60px;
+}
+
+#valet-industries{
+    position:relative;
+    bottom:20px;
+    padding-left: 10px;
+}
