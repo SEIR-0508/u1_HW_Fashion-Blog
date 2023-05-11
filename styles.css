@@ -1,0 +1,55 @@
+li {
+    display: inline;
+    text-decoration: underline;
+}
+
+html {
+    border-left: solid 5px lightgray;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header, main, footer {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.main {
+    color: lightgray;
+}
+
+.footer {
+    color: tomato;
+}
+
+.continues {
+    text-align: right;
+    font-style: bold;
+    color: tomato;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+.copyright {
+    color: lightgray;
+}
