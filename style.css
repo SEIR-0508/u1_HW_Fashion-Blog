@@ -2,5 +2,103 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
+    min-height: 100%;
+    max-width: 1000px;
+    margin: auto;
 }
 
+html {
+    border-left-style: solid;
+    border-left-color: lightgray;
+    border-left-width: 5px;
+}
+
+header {
+    padding: 1rem 2rem;
+}
+
+main {
+    padding: 1rem 2rem;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 1px;
+    padding-bottom: 2rem;
+}
+
+footer {
+    padding: 1rem 2rem;
+    margin-top: -4rem;
+    font-size: .9rem;
+}
+
+img {
+    width: 100%;
+}
+
+time {
+    font-size: 38px;
+    color: lightgray;
+}
+
+/* classes */
+.topLinks {
+    color: lightgray;
+    font-size: 1.2rem;
+}
+.artTitle {
+    font-size: 35px;
+}
+.navBarTop {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBarBottom {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+.postText::first-letter {
+    font-size: 4rem;
+    font-weight: bold;
+    color: lightgray;
+    float: left;
+}
+
+
+.continues {
+    text-decoration: none;
+    font-weight: bold;
+    display:flex;
+    justify-content: flex-end;
+    color: tomato;
+}
+
+.bottomLinks {
+    color: tomato;
+    text-decoration: none;
+
+}
+
+.gimmeBars:not(:last-of-type) {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 2px solid lightgray;
+  }
+
+/* ids */
+#topTitle {
+    color: tomato;
+    font-size: 50px;
+    margin-bottom: -2%;
+}
+
+#copyright {
+    color: lightgray;
+}
