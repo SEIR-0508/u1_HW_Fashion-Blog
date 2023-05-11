@@ -1,0 +1,104 @@
+html {
+    border-left: 5px solid lightgray
+}
+
+h1 {
+    color: tomato
+}
+
+h3 {
+    font-size: 40px;
+    margin: 0px;
+    color: lightgray;
+}
+
+h4 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    padding: 1rem 2rem;
+}
+
+main {
+    padding: 1rem 2rem;
+}
+p {
+    color: gray;
+    font-size: 20px;
+}
+p::first-letter {
+    font-size: 100px;
+    color: lightgray;
+    float: left;
+    padding: 0px 3px 0px 0px;
+}
+
+article {
+    margin-bottom: 4em;
+    border-bottom: 1px solid lightgray;
+}
+
+article a {
+    color: tomato;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+footer {
+    padding: 1rem 2rem;
+}
+
+.navlinks {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlinks a {
+    color: lightgray;
+}
+
+.footernav {
+    display: inline-flex;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.footernav a {
+    color: tomato;
+    text-decoration: none;
+}
+
+.footernav li {
+    padding: 0px 8px 0px 8px;
+    border-right: 2px solid lightgray;
+    font-size: 15px;
+}
+.copyright {
+    font-size: 15px;
+    color:lightgray;
+}
+/* 
+Cant get the last border to be taken off */
+#final {
+    border-right: none;
+}
+
