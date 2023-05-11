@@ -4,37 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sarte's List</title>
 </head>
 <body>
     <header>
         <h1 id="topTitle">Sarte's List</h1>
         <h2 id="topSubTitle">Better-Dressed People</h2>
-        <div class="linkPanel">
-            <a href="womenLink">Women's</a>
-            <a href="menLink">Men's</a>
-            <a href="streetLink">On the Street</a>
-            <a href="catLink">The Catwalk</a>
-            <a href="adLink">AdWatch</a>
-            <a href="aboutLink">About</a>
-        </div>
+        <nav aria-label="Main Navigation" role="navigation">
+            <ul>
+                <li><a href="womenLink">Women's</a></li>
+                <li><a href="menLink">Men's</a></li>
+                <li><a href="streetLink">On the Street</a></li>
+                <li><a href="catLink">The Catwalk</a></li>
+                <li><a href="adLink">AdWatch</a></li></li>
+                <li><a href="aboutLink">About</a></li></li>
+            </ul>
+        </nav>
     </header> 
-    <article>
-        <h3 class=bigDate>11/12/13</h3>
-        <h4 class=artTitle>On the Street in Brooklyn</h4>
-        <img src="blog-image-1.jpg"/>
-        <h1 id="bigC">W</h1>
-        <p class="postText">ords and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words.</p>
-        <p class="continues">Continues...</p>
-    </article>
-    <article>
-        <h3 class=bigDate>11/11/13</h3>
-        <h4 class=artTitle>Vintage in Vogue</h4>
-        <img src="blog-image-2.jpg"/>
-        <h1 id="bigC">M</h1>
-        <p class="postText">ore words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words.</p>
-        <p class="continues">Continues...</p>
-    </article>
+    <main>
+        <article>
+            <time datetime="2013-11-12">11/12/13</time>
+            <h2 class=artTitle>On the Street in Brooklyn</h2>
+            <img src="blog-image-1.jpg"/>
+            <p class="postText"><span class="bigL">C</span>ray lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita id maxime, cum distinctio temporibus porro animi similique assumenda optio ad voluptatibus nesciunt nam a voluptas, atque, quam exercitationem. Obcaecati, minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita id maxime, cum distinctio temporibus porro animi similique assumenda optio ad voluptatibus nesciunt nam a voluptas, atque, quam exercitationem. Obcaecati, minima.</p>
+            <aside>
+                <p class="continues">Continues...</p>
+            </aside>
+        </article>
+        <article>
+            <h3 class=bigDate>11/11/13</h3>
+            <h2 class=artTitle>Vintage in Vogue</h2>
+            <img src="blog-image-2.jpg"/>
+            
+            <p class="postText"><span class="bigL">S</span>elfies lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita id maxime, cum distinctio temporibus porro animi similique assumenda optio ad voluptatibus nesciunt nam a voluptas, atque, quam exercitationem. Obcaecati, minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita id maxime, cum distinctio temporibus porro animi similique assumenda optio ad voluptatibus nesciunt nam a voluptas, atque, quam exercitationem. Obcaecati, minima.</p>
+            <aside>
+                <p class="continues">Continues...</p>
+            </aside>
+        </article>
+    </main>
     <footer>
         <div class="bottomLinks">
             <a href="homeLink">Home</a>
@@ -46,7 +53,7 @@
             <a href="aboutLink">About</a>
             <a href="tipLink">Tips</a>
         </div>
-        <p id="copyright">© 2013 Valet Industries, Inc.</p>
+        <p id="copyright">&copy 2013 Valet Industries, Inc.</p>
     </footer>   
 </body>
 </html>
