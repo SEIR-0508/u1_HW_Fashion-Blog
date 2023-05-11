@@ -1,0 +1,123 @@
+html {
+    border-left: 5px lightgrey;  
+}
+
+header {
+    padding: 1rem 2rem;
+}
+
+
+main {
+    padding: 1rem 2rem;
+}
+
+
+footer {
+    padding: 1rem 2rem;
+}
+
+
+body {
+    min-height:auto;
+    font-family: sans-serif;
+    max-width: 10000px;
+    margin: auto;
+    font-family: 'Tangerine', serif;
+    font-size: 30px
+    
+}
+
+
+h1 {
+    color: tomato;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+
+#sub-title {
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+
+article {
+    margin: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+p::first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+    color: lightgrey;
+}
+
+/*
+ul {
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    padding: none;
+}
+*/
+
+li{
+    display: inline;
+    text-align: center;
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: space-between;
+    
+}
+
+
+
+a {
+    color: lightgrey;
+    margin: 0 0 4rem 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+
+
+.continues {
+    text-align: right;
+    color: tomato;   
+}
+
+.header_nav {
+    display: flex;
+    align-content: space-between;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.footer_nav {
+    list-style-type: none;
+    color: tomato;
+}
+
+/*
+#first_post {
+    margin: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+*/
+
+#copywrite {
+    color: lightgrey;
+}
+
+.entry_title{
+    color: lightgrey;
+}
+
+.post {
+    font-size: 2.5rem;
+}
