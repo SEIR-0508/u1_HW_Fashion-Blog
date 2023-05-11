@@ -1,0 +1,86 @@
+html {
+border-left: 5px solid lightgray;
+
+}
+
+body {
+    min-height: 100%vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+}
+
+header {
+    padding: 2rem; ;
+}
+
+h1 {
+    color: tomato;
+    
+}
+
+h2 {
+    font-size: larger;
+
+}
+image {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+
+main {
+    padding: 2rem;
+
+}
+
+article p::first-letter {
+    color: lightgray
+
+}
+
+img {
+    width: 100%;
+}
+
+
+.continues {
+    align-self: right;
+    color: tomato
+
+}
+
+
+
+
+footer {
+    padding: 2rem;
+}
+
+.head-nav a{
+     color: lightgray;
+}
+
+.foot-nav a{
+    color: tomato;
+}
+
+a {
+    text-decoration: none;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 2rem;
+}
+
+footer p{
+    color: lightgray
+}
