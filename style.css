@@ -1,9 +1,9 @@
 body{
-    border-left: 5px solid gray;
+    border-left: 5px solid lightgray;
     font-family: 'Montserrat', sans-serif;
     max-width: 1000px;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 70px;
 }
 
 h1 {
@@ -16,15 +16,15 @@ h1 {
 }*/
 
 time {
-    color: gray;
+    color: lightgray;
     font-size: 25px;
 }
 
 p::first-letter {
-    color: gray;
+    color: lightgray;
     font-size: 60px;
     float: left;
-    line-height: 0.5;
+    line-height: 1;
     
     margin: auto;;
     padding-right: 8px;
@@ -36,15 +36,12 @@ ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+
    
 }
 
 li {
     display: inline-block;
-}
-
-.second {
-    color: red;
 }
 
 img {
@@ -53,11 +50,12 @@ img {
 
 .continues {
     color: tomato;
-    font-weight: bolder;
+    font-weight: bold;
     float: right;
 }
 
 footer {
     padding-bottom: 40px;
-    
+    text-align: center;
+    color: lightgray;
 }
