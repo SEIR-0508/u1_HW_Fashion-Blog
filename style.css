@@ -1,0 +1,45 @@
+body {
+    border-left: 5px solid lightgray;
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    padding: 1rem 2rem;
+}
+
+body {
+    padding: 1rem 2rem;
+}
+
+footer {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* class */
+
+.headerList {
+    color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footerList {
+    color: tomato;
+    display: flex;
+}
