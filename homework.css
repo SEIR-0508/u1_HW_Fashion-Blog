@@ -1,0 +1,40 @@
+ul{
+    
+    border-color: lightgray;
+    list-style-type: none;
+    flex-direction:column;
+    justify-content:space-around;
+}
+body{
+    min-height: 100%;
+    font-family: sans-serif;
+    max-width: 1000%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    color:gray;
+}
+
+h1{
+    padding: 2rem;
+    color:tomato;
+}
+h2{
+    padding: 2rem;
+    color: tomato;
+}
+img{
+    width: 100%;
+}
+p::first-letter {
+    font-size: 4rem;
+    font-weight:lighter;
+    color: gray;
+}
+footer{
+    color: tomato;
+}
+
+div{
+    color: gray;
+}
