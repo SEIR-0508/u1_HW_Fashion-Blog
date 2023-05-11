@@ -1,5 +1,55 @@
 html {
-    border: left;
-    width: 5px;
-    background-color: lightgray;
+    border: 5px ;
+    background-color: rgb(234, 223, 223);
 }
+
+body {
+    min-height: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    padding: 1rm, 2rm, 1rm, 2rm;
+}
+main {
+    padding: 1rm, 2rm, 1rm, 2rm;
+}
+footer {
+    padding: 1rm, 2rm, 1rm, 2rm;
+}
+
+h1 {
+    color: tomato;
+    font-size: 60px;
+}
+img {
+    width: 100%;
+}
+
+.navhead {
+    padding: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: lightgrey;
+}
+
+.navfoot {
+    color: tomato;
+}
+
+.continues {
+    text-align: right;
+    color: tomato;
+}
+
+.main_date {
+    color: gray
+}
+.main_title {
+    font-size: 30px;
+    color: black;
+}
+
+
