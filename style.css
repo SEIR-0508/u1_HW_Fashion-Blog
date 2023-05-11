@@ -9,6 +9,24 @@ body {
     margin: auto;
 }
 
+#nav_head {
+    display:inline;
+}
+
+#ul_top_hypers li {
+    display:inline;
+    color: lightgrey;
+}
+#nav_foot {
+    display:inline;
+}
+
+#ul_bottom_hypers li {
+    display:inline;
+    color: lightgrey;
+}
+
+
 header {
     padding: 1rm, 2rm, 1rm, 2rm;
 }
@@ -50,6 +68,19 @@ img {
 .main_title {
     font-size: 30px;
     color: black;
+}
+article {
+    margin: 0rem, 0rem, 4ren, 0ren;
+    border-bottom-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    padding: 0rem, 0rem, 2rem, 0rem;
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: lightgray;
 }
 
 
