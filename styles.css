@@ -15,7 +15,6 @@ header {
 main {
   padding: 1rem 2rem 1rem 2rem;
   font: sans-serif;
-  margin: 0;
 }
 
 footer {
@@ -26,18 +25,13 @@ h1 {
   color: tomato;
   font-size: 60px;
   font-weight: 400;
+  padding: 1rem 2rem 0rem 2rem;
 }
 
 h2 {
   font-size: 30px;
   font-weight: 300;
-}
-
-article {
-  margin-bottom: 4rem;
-  border-bottom: 1px;
-  border-color: lightgray;
-  padding-bottom: 2rem;
+  padding: 0rem 2rem 1rem 2rem;
 }
 
 .ul {
@@ -47,10 +41,14 @@ article {
 }
 
 .top-nav {
+  font: sans-serif;
   flex-direction: row;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .top-nav ul{
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   color: lightgray;
@@ -62,23 +60,24 @@ article img{
 }
 
 article p::first-letter{
- color: lightgray;
- font-size: 70px;
-
+  color: lightgray;
+  font-size: 70px;
 }
 
 .blog1 {
-  border-color: lightgray;
   margin-bottom: 4rem;
-  border-bottom: 1px;
+  border-bottom: 1px solid;
   padding-bottom: 2rem;
+  border-color: lightgray;
+  font-weight: 300;
 }
 
 .blog2 {
-  border-color: lightgray;
   margin-bottom: 4rem;
-  border-bottom: 1px;
+  border-bottom: 1px solid;
   padding-bottom: 2rem;
+  border-color: lightgray;
+  font-weight: 300;
 }
 
 .cont {
@@ -93,6 +92,7 @@ article p::first-letter{
 }
 
 .footer-nav ul{
+  list-style-type: none;
   display: flex;
   color: tomato;
   flex-direction: row;
