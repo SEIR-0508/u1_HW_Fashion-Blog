@@ -15,12 +15,11 @@ header {
 main {
   padding: 1rem 2rem 1rem 2rem;
   font: sans-serif;
+  margin: 0;
 }
 
 footer {
-  display: flex;
   font: sans-serif;
-  flex-direction: row;
 }
 
 h1 {
@@ -34,15 +33,17 @@ h2 {
   font-weight: 300;
 }
 
-.blogs {
-  margin: 0;
-  padding: 0.3rem;
-  font-family: sans-serif;
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px;
+  border-color: lightgray;
+  padding-bottom: 2rem;
 }
 
 .ul {
   flex-direction: row;
   list-style-type: none;
+  padding: 0;
 }
 
 .top-nav {
@@ -89,17 +90,17 @@ article p::first-letter{
 
 .footer-nav{
   flex-direction: row;
-  justify-content: space-between;
 }
 
-.footer-nav li{
+.footer-nav ul{
   display: flex;
   color: tomato;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
 }
 
 .copyright {
+  display: flex;
   color: lightgray;
+  justify-content: center;
 }
