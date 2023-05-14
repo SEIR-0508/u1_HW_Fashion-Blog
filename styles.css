@@ -7,15 +7,40 @@ body {
   margin: auto;
   font-family: sans-serif;
   padding: 1rem 2rem 1rem 2rem;
-  image-
 }
 
 h1 {
   color: tomato;
 }
+
+h2 {
+  font-size: 30px;
+}
+
 .blogs {
   margin: 0;
   padding: 0.3rem;
   background-color:magenta;
-  font-family: 'Rozha One', serif;
+  font-family: sans-serif;
+}
+
+.ul {
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.top-nav {
+  flex-direction: row;
+}
+
+.top-nav ul{
+  display: flex;
+  flex-direction: row;
+  color: lightgray;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  color: tomato;
+  flex-direction: row;
 }
