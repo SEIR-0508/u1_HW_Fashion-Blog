@@ -17,6 +17,13 @@ h2 {
   font-size: 30px;
 }
 
+a {
+  display: flex;
+  justify-content: flex-end;
+  font: bold;
+  color: tomato;
+}
+
 .blogs {
   margin: 0;
   padding: 0.3rem;
