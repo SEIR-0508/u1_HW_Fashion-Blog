@@ -31,7 +31,13 @@ h1 {
 h2 {
   font-size: 30px;
   font-weight: 300;
-  padding: 0rem 2rem 1rem 2rem;
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+h3{
+  font-size: 40px;
+  font-weight: 300;
+  padding: 1rem 2rem 0rem 2rem;
 }
 
 .ul {
@@ -55,8 +61,8 @@ h2 {
   justify-content: space-between;
 }
 
-article img{
-  align-items: center;
+article {
+  padding: 0rem 2rem 1rem 2rem;
 }
 
 article p::first-letter{
@@ -103,4 +109,5 @@ article p::first-letter{
   display: flex;
   color: lightgray;
   justify-content: center;
+  margin: 0rem 2rem 0rem 2rem;
 }
