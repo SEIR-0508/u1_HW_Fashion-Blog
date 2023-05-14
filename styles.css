@@ -6,28 +6,37 @@ body {
   max-width: 1000px;
   margin: auto;
   font-family: sans-serif;
+}
+
+header {
   padding: 1rem 2rem 1rem 2rem;
+}
+
+main {
+  padding: 1rem 2rem 1rem 2rem;
+  font: sans-serif;
+}
+
+footer {
+  display: flex;
+  font: sans-serif;
+  flex-direction: row;
 }
 
 h1 {
   color: tomato;
+  font-size: 60px;
+  font-weight: 400;
 }
 
 h2 {
   font-size: 30px;
-}
-
-a {
-  display: flex;
-  justify-content: flex-end;
-  font: bold;
-  color: tomato;
+  font-weight: 300;
 }
 
 .blogs {
   margin: 0;
   padding: 0.3rem;
-  background-color:magenta;
   font-family: sans-serif;
 }
 
@@ -47,7 +56,50 @@ a {
   justify-content: space-between;
 }
 
-.footer-nav {
+article img{
+  align-items: center;
+}
+
+article p::first-letter{
+ color: lightgray;
+ font-size: 70px;
+
+}
+
+.blog1 {
+  border-color: lightgray;
+  margin-bottom: 4rem;
+  border-bottom: 1px;
+  padding-bottom: 2rem;
+}
+
+.blog2 {
+  border-color: lightgray;
+  margin-bottom: 4rem;
+  border-bottom: 1px;
+  padding-bottom: 2rem;
+}
+
+.cont {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  color: tomato;
+}
+
+.footer-nav{
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-nav li{
+  display: flex;
   color: tomato;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright {
+  color: lightgray;
 }
