@@ -29,14 +29,16 @@ nav ul {
 
 article {
     margin-bottom: 4rem;
-    border-bottom: 1px;
+    border-bottom: solid
+    1px;
     border-color: lightgray;
     padding: 0 0 2rem 0;
 }
 
-#copyright {
-    font-size: 1.25em;
+article p::first-letter {
     color: lightgray;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .image {
@@ -64,6 +66,10 @@ article {
     font-weight: bold;
 }
 
+.title {
+    font-size: xx-large;
+}
+
 #top-nav {
     display: flex;
     justify-content: space-between;
@@ -72,4 +78,20 @@ article {
 
 #bot-nav {
     color: tomato;
+}
+
+#sartre {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+#bdp {
+    font-weight: lighter;
+    font-size: larger;
+    
+}
+
+#copyright {
+    font-size: 1.5em;
+    color: lightgray;
 }
