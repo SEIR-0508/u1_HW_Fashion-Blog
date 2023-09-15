@@ -9,59 +9,115 @@
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Londrina+Shadow&family=Poiret+One&family=Poller+One&family=Raleway:wght@100&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Londrina+Shadow&family=Poiret+One&family=Poller+One&family=Raleway:wght@100;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Fjalla+One&family=Londrina+Shadow&family=Poiret+One&family=Poller+One&family=Raleway:wght@100;700&display=swap" rel="stylesheet">
+       
     </head>
     <body>
         <header>
-            <h1>Sartre's List</h1>
+            <h1 class="hero-name">Sartre's List</h1>
             <h2>Better-Dressed People</h2>
-            <nav class="top-nav"  aria-label="Main Naviagation" role ="navigation">
-                <ul>
+                <ul class="top-ul">
+                    <div class="dropdown">
                      <li><a class="top-nav" href="Women's.html">Woman's</a></li>
-                        <li class="has-submenu">
-                            <a aria-expanded="false" aria-haspopup="true" href="www.google.com"></a>
-                            <ul>
-                                <li>Summer</li>
-                                <li>Fall</li>
-                                <li>Winter</li>
-                                <li>Spring</li>
-                            </ul>
-                        </li>
+                        <div class="dropdown-content">
+                            <a href="list.html">Dresses</a>
+                            <a href="list.html">Tops</a>
+                            <a href="list.html">Bottoms</a>
+                            <a href="list.html">Shoes</a>
+                            <a href="list.html">Accessories</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
                     <li><a class="top-nav"  href="list.html">Men's</a></li>
-                    <li><a class="top-nav"  href="add.html">On the Street</a></li>
-                    <li><a class="top-nav"  href="add.html">The Catwalk</a></li>
-                    <li><a class="top-nav"  href="add.html">Ad Watch</a></li>
-                    <li><a class="top-nav"  href="add.html">About</a></li>
+                     <div class="dropdown-content">
+                            <a href="list.html">Suits</a>
+                            <a href="list.html">Shirts</a>
+                            <a href="list.html">Pants</a>
+                            <a href="list.html">Shoes</a>
+                            <a href="list.html">Accessories</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li><a class="top-nav" href="Women's.html">On The Street</a></li>
+                           <div class="dropdown-content">
+                               <a href="list.html">Casual Friday</a>
+                               <a href="list.html">Style Tips</a>
+                               <a href="list.html">Black Tie Events</a>
+                               <a href="list.html">Shoes</a>
+                               <a href="list.html">Accessories</a>
+                           </div>
+                       </div>
+                       <div class="dropdown">
+                       <li><a class="top-nav"  href="list.html">The Catwalk</a></li>
+                        <div class="dropdown-content">
+                               <a href="list.html">NY Fashion Week</a>
+                               <a href="list.html">Next From Milan</a>
+                               <a href="list.html">Cozy Fall Fashions</a>
+                               <a href="list.html">Shoes</a>
+                               <a href="list.html">Accessories</a>
+                           </div>
+                       </div>
+                       <div class="dropdown">
+                        <li><a class="top-nav" href="adWatch.html">Ad Watch</a></li>
+                           <div class="dropdown-content">
+                               <a href="list.html">Mens</a>
+                               <a href="list.html">Womens</a>
+                               <a href="list.html">Designer Fashion</a>
+                               <a href="list.html">Jewlery</a>
+                               <a href="list.html">Specialty Items</a>
+                           </div>
+                       </div>
+                       <div class="dropdown">
+                       <li><a class="top-nav"  href="about.html">About</a></li>
+                        <div class="dropdown-content" id="nav-about">
+                               <a href="list.html">About Me</a>
+                               <a href="list.html">About The Brand</a>
+                               <a href="list.html">Contact Me</a>
+                           </div>
+                       </div>
                 </ul>
-            </nav>
+            
         </header>
 
         <main>
+            <div class="blog-divider">
             <article class="post1">
                 <h2>11/12/23</h2>
                 <h2 class="post-title">On the Street in Brooklyn</h2>
                 <img src="blog-image-1.jpg" alt="On the Street in Brooklyn">
                 <p class="blog-content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore velit, facere harum ipsam distinctio adipisci voluptates, ut illum, commodi vel unde! Vitae nobis placeat autem quo dicta velit sequi dolorum.</p>
-                <p class="continues" >Continues... </p>
+                <div class="continues-dropdown" >
+                    <p class="cont"> Continues... </p>
+                        <div class="continues-dropdown-content" >
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error excepturi delectus ducimus provident dolor nobis, vitae in fugiat temporibus sequi laudantium vel veritatis placeat similique incidunt blanditiis tempore ipsam pariatur.</p>
+                        </div>
+               </div>
+            </div>
             </article> 
+            </div>
             
-
+            <div class="blog-divider">
             <article class="post2">
                 <h2>11/11/23</h2>
                 <h2 class="post-title">Vintage in Vogue</h2>
                 <img src="blog-image-2.jpg" alt="">
                 <p class="blog-content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore velit, facere harum ipsam distinctio adipisci voluptates, ut illum, commodi vel unde! Vitae nobis placeat autem quo dicta velit sequi dolorum.</p>
-                <p class="continues" >Continues... </p>
+                <div class="continues-dropdown">
+                    <p > Continues... </p>
+                        <div class="continues-dropdown-content" >
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error excepturi delectus ducimus provident dolor nobis, vitae in fugiat temporibus sequi laudantium vel veritatis placeat similique incidunt blanditiis tempore ipsam pariatur.</p>
+                        </div>
+                </div>
+            </div>
             </article>
             
         </main>
 
         <footer>
             <nav class="footer-nav">
-                <ul>
+                <ul class="bottom-ul">
                     <li><a class="footer-nav" href="Women's.html">Woman's</a></li>
                     <li><a class="footer-nav" href="list.html">Men's</a></li>
                     <li><a class="footer-nav" href="add.html">On the Street</a></li>

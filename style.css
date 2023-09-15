@@ -1,17 +1,27 @@
+
 html{
     border-left:5px solid lightgrey;
     max-width: 100vw;
     min-height: 100vh;
     font-family: 'Raleway', sans-serif;
-    
+    display: flex;
 }
 
 body{
     min-height: 100vh;
-    max-width: 100vw;
+    max-width: 1000px;
+    width: 90vw;
+    
 }
+
 header main footer{
     padding: 1em 2em;   
+}
+
+.top-ul, .bottom-ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
 }
 
 h1{
@@ -19,33 +29,44 @@ h1{
 }
 .post-title{
     font-size: 25px;
+    animation-name: slidingText;
+    animation-duration:3s;
+    animation-delay: 0.5s;
+    
 }
 img{
     width: 100%;
 }
+
 article{
+    display: flex;
+    flex-direction: column;
     margin-bottom: 4em;
     border-bottom: solid 1px lightgrey;
+   
+    
+}
+.blog-divider{
+    width: 100%;
 }
 
 ul{
     list-style: none;
     padding: 0;
+   
 }
 .top-nav{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: lightgrey;
+    color: rgb(132, 132, 132);
     overflow: hidden;
+    flex-flow: column wrap;
+    width: 100;
 }
 
 .footer-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     color: tomato;
 }
+
 .copyright{
     color: lightgrey;
 }
@@ -64,32 +85,117 @@ ul{
    
 }
 
-.continues{
+.continues-dropdown {
+    display: flex;
+    align-self: flex-end;
     color: tomato;
-    margin-left: 90%;
-    font-weight: bolder;
-}    
+    margin-left: 90vb;
+    position: relative;
+    font-weight: bold;
 
+}
 
+.continues-dropdown-content {
+    display: none;
+    width: 10vw;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    
+}
 
-/* Media Queries */
+.continues-dropdown:hover .continues-dropdown-content {
+    display: block;
+    background-color: rgba(231, 224, 224, 0.9);
+    width: 70vw;
+    padding: 5px;
+    margin-left: 10px;
+   
+}
 
-@media screen and (min-width: 25em) {
-    #nav {
-      float: none;
-      width: auto;
+.dropdown-content a {
+    display: block;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 30vb;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: rgba(125, 125, 125, .9);
+}
+
+.dropdown-content a {
+    display: block;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: tomato;
+}
+
+#nav-about{
+    transform: translate(-10vb) ;
+}
+
+.hero-name {
+    font-size: 40px;
+    animation-name: growShrink;
+    animation-duration: 3s;
+    animation-delay: .075s;
+}
+
+/* for screen sizes under 800px adjust dropdown for `Continues...` on page */
+@media only screen and (max-width:800px){
+    .continues-dropdown:hover .continues-dropdown-content{
+        background-color: tomato;
+        color: white;
+        display: flex;
+        justify-content: right;
+        max-width: fit-content;
+        width: 90vw;
+       padding-left: 5px;
     }
-    #main {
-      margin-left: 0;
+}
+
+/* Animation for `Santre's List */
+
+@keyframes growShrink{
+    0%{
+        font-size: 40px;
     }
-  }
-  /* On wider viewports, put the navigation on the left */
-  @media screen and (min-width: 43em) {
-    #nav {
-      float: left;
-      width: 24%;
+    50%{
+        font-size: 60px;
     }
-    #main {
-      margin-left: 27%;
+    100%{
+        font-size: 40px;
     }
-  }
+}
+
+@keyframes slidingText{
+    0%{
+        transform: translateX(0vw);
+    }
+    50%{
+        transform: translateX(50vw);
+    }
+    100%{
+        transform: translateX(0vw);
+    }
+}
+
