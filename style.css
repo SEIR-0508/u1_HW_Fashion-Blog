@@ -1,0 +1,111 @@
+html {
+    border-left: 5px solid lightgray;
+}
+
+.head-sub {
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: tomato;
+}
+
+h2 {
+    font-size: 2rem;
+    color: lightgray;
+}
+
+.head-sub {
+    color: black;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+img {
+   width: 100%
+}
+
+.main-ul {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.main-a:link {
+    color: lightgray;
+}
+
+.main-a:visited {
+    color: lightgray;
+}
+
+.bottom-ul {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.bottom-a:link {
+    color: tomato;
+    text-decoration: none;
+}
+
+.bottom-a:visited {
+    color: tomato;
+    text-decoration: none;
+}
+
+.continue {
+    display: flex;
+    justify-content: flex-end;
+    color: tomato;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100% vh;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+main {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+footer {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+article {
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid lightgray;
+}
+
+/*p::first-letter {
+    color: lightgray;
+    font-size: 4rem;
+    font-weight: bold;
+} */
+
+.copyright {
+    color: lightgray;
+}
+
+span {
+    float: left;
+    line-height: 85%;
+    width: .8em;
+    font-size: 400%;
+    color: lightgray;
+}
