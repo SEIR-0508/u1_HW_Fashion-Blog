@@ -1,0 +1,111 @@
+/* OVERALL STYLING */
+html {
+    border-left: 5px solid lightgray;
+}
+
+header {
+    padding: 1rem 2rem;
+}
+
+main {
+    padding: 1rem 2rem;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+footer {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: tomato;
+    line-height: 3px;
+    padding-top: 2rem;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* NAVIGATION */
+#top-ul {
+    font-size: 1.5em;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-ul a {
+    color: lightgray;
+}
+
+#footer-ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#footer-ul a {
+    color: tomato;
+}
+
+/* CONTENT-ARTICLES */
+article {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+}
+
+time {
+    font-size: 2rem;
+    color: lightgray;
+    line-height: 3px;
+}
+
+.has-dropcap::first-letter {
+    color: lightgray;
+    float: left;
+    font-size: 5rem;
+    line-height: .65;
+    margin: .1em .1em .2em 0;
+}
+.post-title {
+    font-size: 2rem;
+}
+
+.continue {
+    text-align: right;
+    color: tomato;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.continue:hover {
+    color: orangered;
+}
+
+/* FOOTER */
+#copyright {
+    color: lightgray;
+}
