@@ -1,0 +1,61 @@
+body {
+  min-height: 10vh;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  border-left: solid 5px lightgray;
+}
+
+header,
+main,
+footer {
+  padding: 1rem 2rem;
+}
+h1 {
+  color: tomato;
+}
+img {
+  width: 100%;
+}
+.topNav {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  list-style: none;
+  justify-content: space-between;
+}
+.topNav a {
+  color: lightgray;
+}
+
+.bottom-nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  list-style: none;
+  color: tomato;
+}
+.blogTitles {
+  font-size: 2.5em;
+}
+article {
+  margin-bottom: 4rem;
+  border-bottom: solid 1px lightgray;
+  padding-bottom: 2rem;
+}
+
+.continues {
+  float: right;
+  font-weight: bold;
+  color: tomato;
+}
+article p::first-letter {
+    float:left;
+  font-size: 4rem;
+  font-weight: bold;
+  color: lightgray;
+}
+
+.copyright{
+    color: lightgray;
+}
