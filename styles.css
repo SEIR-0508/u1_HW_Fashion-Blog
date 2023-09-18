@@ -1,0 +1,64 @@
+/* ICE, Format elements, classes then IDs*/
+h1{
+    font-size: 75px;
+    margin: 0px 0px 0px 0px;
+}
+img{
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    margin: 10px 0px 15px 0px;
+}
+h3{
+    font-size: 50px;
+    margin: 0px 0px 15px 0px;
+}
+p{
+    font-size: 25px;
+    line-height: 1.5; 
+}
+.spanFl{
+    color: lightGray;
+    float: left; /* Float the first letter to the left for a classic drop cap effect */
+    line-height: 1; /* Adjust line height if needed */
+    font-size: 125px;
+    margin: 0px 10px 0px 0px; /* Add margin for spacing around the first letter */
+}
+.flex{
+    display: flex;
+    padding: 80px; /* Add padding to the content if needed */
+    font-family: sans-serif; /* Use sans-serif fonts */
+}
+.red{
+    color: red
+}
+.lightGray{
+    color: lightgray;
+}
+.top-nav{
+    margin: 0px 0px 75px 0px;
+    font-size: 35px;
+}
+.bottom-nav a{
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px; /* Add margin for spacing around the first letter */
+}
+hr{
+    margin: 75px 0px 75px 0px; /* Add margin for spacing around the first letter */
+}
+#bold{
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+    font-size: 22px;
+}
+#lightGray{
+    color: lightgray;
+}
+
+
+
+
+
